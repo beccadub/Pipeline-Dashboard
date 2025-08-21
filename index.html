@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Clara County Pipeline Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header -->
+    <div class="bg-gray-800 border-b border-gray-700 px-6 py-4">
+        <h1 class="text-2xl font-bold">Santa Clara County Multifamily Pipeline Dashboard</h1>
+        <p class="text-gray-400 text-sm mt-1">Last Updated: August 21, 2025</p>
+    </div>
+
+    <!-- Evidence Index -->
+    <div class="p-6">
+        <h2 class="text-xl font-semibold mb-4">Evidence Index</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <div class="text-3xl font-bold text-blue-400">5,750</div>
+                <div class="text-gray-400 text-sm mt-1">Total Units in Pipeline</div>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <div class="text-3xl font-bold text-green-400">2,830</div>
+                <div class="text-gray-400 text-sm mt-1">Units Delivering Next 12 Months</div>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <div class="text-3xl font-bold text-purple-400">94.2%</div>
+                <div class="text-gray-400 text-sm mt-1">Current Occupancy Rate</div>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <div class="text-3xl font-bold text-orange-400">1,850</div>
+                <div class="text-gray-400 text-sm mt-1">Largest Single Project</div>
+            </div>
+        </div>
+
+        <!-- Market Analytics -->
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-4">Market Analytics</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-lg font-medium mb-4">Pipeline by Stage</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm">Under Construction</span>
+                            <span class="text-sm">2,830 units</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm">Approved</span>
+                            <span class="text-sm">2,070 units</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm">Planning</span>
+                            <span class="text-sm">850 units</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-lg font-medium mb-4">Top Submarkets</h3>
+                    <div class="space-y-3">
+                        <div class="flex justify-between">
+                            <span class="text-sm">San Jose</span>
+                            <span class="text-sm">2,700 units</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-sm">Palo Alto</span>
+                            <span class="text-sm">2,070 units</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-sm">Mountain View</span>
+                            <span class="text-sm">980 units</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Top Projects -->
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-4">Top Projects by Units</h2>
+            <div class="bg-gray-800 rounded-lg overflow-hidden">
+                <div class="bg-teal-700 text-center py-3">
+                    <strong>Santana Row Phase 4</strong> - 1,850 units
+                    <div class="text-sm mt-1">San Jose • Under Construction • Q1 2025</div>
+                </div>
+                <div class="p-4 space-y-3">
+                    <div class="flex justify-between items-center">
+                        <span>The Village at Stanford</span>
+                        <span>1,420 units</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span>Downtown Mountain View</span>
+                        <span>980 units</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span>North County Gateway</span>
+                        <span>850 units</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Risk Analysis -->
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-4">Submarket Risk Analysis</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-lg font-medium mb-4">Absorption Analysis</h3>
+                    <div class="space-y-3">
+                        <div class="flex justify-between">
+                            <span class="text-sm">Palo Alto/Stanford</span>
+                            <span class="text-red-400">High Risk</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-sm">San Jose Downtown</span>
+                            <span class="text-yellow-400">Medium Risk</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-sm">Mountain View</span>
+                            <span class="text-green-400">Low Risk</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-lg font-medium mb-4">Developer Concentration</h3>
+                    <div class="space-y-3">
+                        <div class="flex justify-between">
+                            <span class="text-sm">Stanford University</span>
+                            <span class="text-blue-400">2,070 units (36%)</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-sm">Federal Realty</span>
+                            <span class="text-green-400">1,850 units (32%)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
