@@ -261,7 +261,9 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-
+        <div className="mb-8 bg-red-500 p-4">
+          <h2 className="text-xl font-semibold mb-4 text-white">TEST - Can you see this red section?</h2>
+        </div>
         {/* Market Analytics */}
         <div className="mb-8">
           <h2 className="text-xl font-semibold mb-4">Market Analytics</h2>
