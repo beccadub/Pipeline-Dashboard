@@ -528,7 +528,7 @@ const Dashboard = () => {
           <h2 className="text-xl font-semibold mb-4">Geographic Distribution</h2>
           <div className="bg-gray-800 p-6 rounded-lg">
             <div className="text-center text-gray-400">
-              <Building className="mx-auto mb-2 h-8 w-8" />
+              <div className="text-4xl mb-2">🏢</div>
               <p>Santa Clara County Multifamily Pipeline</p>
               <p className="text-sm mt-1">Detailed geographic analysis and heat mapping</p>
             </div>
