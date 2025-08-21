@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Pipeline-Dashboard/static/js/main.40da86cd.js",
+    "main.js": "/Pipeline-Dashboard/static/js/main.d82bcecc.js",
     "index.html": "/Pipeline-Dashboard/index.html",
-    "main.40da86cd.js.map": "/Pipeline-Dashboard/static/js/main.40da86cd.js.map"
+    "main.d82bcecc.js.map": "/Pipeline-Dashboard/static/js/main.d82bcecc.js.map"
   },
   "entrypoints": [
-    "static/js/main.40da86cd.js"
+    "static/js/main.d82bcecc.js"
   ]
 }
