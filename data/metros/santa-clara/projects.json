@@ -1,8 +1,7 @@
-# santa-clara/projects.json
 [
   {
     "project_name": "Santana Row Phase 4",
-    "address": "3055 Olin Ave, San Jose, Est. Delivery: Q1 2025",
+    "address": "3055 Olin Ave, San Jose",
     "submarket": "San Jose",
     "units": 1850,
     "stage": "Under Construction",
@@ -11,7 +10,7 @@
   },
   {
     "project_name": "The Village at Stanford",
-    "address": "Palo Alto",
+    "address": "3160 Porter Dr, Palo Alto",
     "submarket": "Palo Alto",
     "units": 1420,
     "stage": "Approved",
@@ -20,7 +19,7 @@
   },
   {
     "project_name": "Downtown Mountain View",
-    "address": "Mountain View",
+    "address": "2000 W El Camino Real, Mountain View",
     "submarket": "Mountain View",
     "units": 980,
     "stage": "Planning",
@@ -29,16 +28,16 @@
   },
   {
     "project_name": "North County Gateway",
-    "address": "San Jose",
+    "address": "1850 Automation Pkwy, San Jose",
     "submarket": "San Jose",
     "units": 850,
     "stage": "Under Construction",
     "estimated_delivery": "Q1 2025",
-    "developer": "Lennar Multifamily"
+    "developer": "Lennar Multifamily Communities"
   },
   {
     "project_name": "Stanford Research Park Housing",
-    "address": "Palo Alto",
+    "address": "3180 Porter Dr, Palo Alto",
     "submarket": "Palo Alto",
     "units": 650,
     "stage": "Approved",
