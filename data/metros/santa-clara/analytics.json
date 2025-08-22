@@ -11,7 +11,7 @@
   },
   "projects_by_stage": {
     "Planning": 3,
-    "Approved": 0,
+    "Approved": 3,
     "Under Construction": 4
   },
   "submarket_distribution": {
@@ -24,6 +24,26 @@
     "Federal Realty Investment Trust": 1850,
     "Lennar Multifamily Communities": 850,
     "Google Real Estate": 980
+  },
+  "absorption_stress_test": {
+    "Palo Alto/Stanford": {
+      "pipeline": 2070,
+      "existing": 8950,
+      "risk_level": "High",
+      "occupancy": "89.2%"
+    },
+    "San Jose Downtown": {
+      "pipeline": 2700,
+      "existing": 15200,
+      "risk_level": "Medium",
+      "occupancy": "92.1%"
+    },
+    "Mountain View/Googleplex": {
+      "pipeline": 980,
+      "existing": 12400,
+      "risk_level": "Low",
+      "occupancy": "94.8%"
+    }
   },
   "last_updated": "2025-08-21T00:00:00.000Z"
 }
