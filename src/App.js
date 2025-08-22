@@ -13,7 +13,7 @@ const App = () => {
     { id: 'santa-clara', name: 'Santa Clara County', display: 'Santa Clara' },
     { id: 'austin', name: 'Austin, TX', display: 'Austin Metro' }
   ];
-
+  
   useEffect(() => {
     const loadMetroData = async () => {
       setLoading(true);
