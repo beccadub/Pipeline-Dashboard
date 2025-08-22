@@ -2,7 +2,7 @@
   "name": "Santa Clara County",
   "display_name": "Santa Clara",
   "last_updated": "2025-08-21",
-  "data_source": "Planning Commission meetings and city planning departments",
+  "data_source": "Planning Commission agendas, city planning departments, and public development records",
   "total_units": 5750,
   "total_projects": 10
 }
