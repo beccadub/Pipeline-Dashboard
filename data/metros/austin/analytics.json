@@ -1,0 +1,43 @@
+{
+  "total_units": 44833,
+  "total_projects": 163,
+  "total_valuation": 2095568300.0,
+  "units_next_12_months": 13506,
+  "largest_project_units": 1671,
+  "pipeline_by_stage": {
+    "Approved": 10519,
+    "Under Construction": 34314
+  },
+  "projects_by_stage": {
+    "Approved": 35,
+    "Under Construction": 128
+  },
+  "submarket_distribution": {
+    "North Austin": 8326,
+    "Downtown/East Austin": 5442,
+    "Southeast Austin": 4644,
+    "South Austin": 3497,
+    "Northeast Austin": 5216,
+    "Downtown Austin": 1094,
+    "Northwest Austin": 2794,
+    "East Austin": 6353,
+    "Southwest Austin": 2987,
+    "Central Austin": 1529,
+    "West Austin": 2927,
+    "Austin Metro": 24
+  },
+  "top_developers": {
+    "OHT Construction LLC ***MAIN***": 5650,
+    "MC Aquatic Construction": 3166,
+    "Greystar Development & Construction, LP": 2809,
+    "Skybeck Construction, LLC": 2544,
+    "JE Dunn Construction ***MAIN***": 2094,
+    "Cadence McShane Construction Company": 1701,
+    "Journeyman Construction": 1493,
+    "Morgan PRL Construction LLC": 1380,
+    "Aqua Builders, Inc.": 1206,
+    "Maple Multi Family Contractor LLC": 1072
+  },
+  "average_project_size": 275,
+  "last_updated": "2025-08-22T09:39:05.827780"
+}

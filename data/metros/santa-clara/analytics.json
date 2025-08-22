@@ -1,0 +1,49 @@
+{
+  "total_units": 5750,
+  "total_projects": 10,
+  "units_next_12_months": 2830,
+  "average_occupancy_rate": 94.2,
+  "largest_project_units": 1850,
+  "pipeline_by_stage": {
+    "Planning": 980,
+    "Approved": 3150,
+    "Under Construction": 1620
+  },
+  "projects_by_stage": {
+    "Planning": 3,
+    "Approved": 3,
+    "Under Construction": 4
+  },
+  "submarket_distribution": {
+    "San Jose": 2700,
+    "Palo Alto": 2070,
+    "Mountain View": 980
+  },
+  "top_developers": {
+    "Stanford University": 2070,
+    "Federal Realty Investment Trust": 1850,
+    "Lennar Multifamily Communities": 850,
+    "Google Real Estate": 980
+  },
+  "absorption_stress_test": {
+    "Palo Alto/Stanford": {
+      "pipeline": 2070,
+      "existing": 8950,
+      "risk_level": "High",
+      "occupancy": "89.2%"
+    },
+    "San Jose Downtown": {
+      "pipeline": 2700,
+      "existing": 15200,
+      "risk_level": "Medium",
+      "occupancy": "92.1%"
+    },
+    "Mountain View/Googleplex": {
+      "pipeline": 980,
+      "existing": 12400,
+      "risk_level": "Low",
+      "occupancy": "94.8%"
+    }
+  },
+  "last_updated": "2025-08-21T00:00:00.000Z"
+}
